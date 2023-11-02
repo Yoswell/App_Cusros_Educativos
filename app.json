@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "CursApp",
+    "slug": "MiApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo48.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo96.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ee73768c-8cac-4c12-88d8-ee468a328e80"
+      }
+    }
+  }
+}
